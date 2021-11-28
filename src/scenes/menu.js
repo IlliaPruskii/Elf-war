@@ -10,7 +10,7 @@ export class Menu extends Scene {
 	}
 
 	update(time) {
-		if (this.game.controll.fire) {
+		if (this.game.control.fire) {
 			this.finish(Scene.START_GAME)
 		}
 	}

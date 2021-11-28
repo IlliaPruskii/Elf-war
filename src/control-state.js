@@ -18,7 +18,6 @@ export class ControlState {
 			event.preventDefault()
 			event.stopPropagation()
 			this[this.keyMap.get(event.keyCode)] = pressed
-			console.log(this)
 		}
 	}
 }
